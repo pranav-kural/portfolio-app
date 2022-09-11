@@ -1,0 +1,43 @@
+input {
+  border-radius: 3px !important;
+}
+
+#contactMe h2 {
+  font-family: Raleway, sans-serif;
+  color: #fff;
+}
+
+#contactMe p {
+  font-family: Monsterrat, sans-serif;
+  color: #fff;
+}
+
+a#modal_full_button {
+  color: #000;
+  background: #fff;
+}
+
+#contactMe {
+  flex-direction: column;
+  min-height: 300px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#febf04+0,fd7801+100 */
+  background: #febf04; /* Old browsers */
+  background: -moz-linear-gradient(
+    -45deg,
+    #febf04 0%,
+    #fd7801 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    -45deg,
+    #febf04 0%,
+    #fd7801 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    135deg,
+    #febf04 0%,
+    #fd7801 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febf04', endColorstr='#fd7801',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  margin-top: 50px;
+  margin-bottom: 50px;
+}

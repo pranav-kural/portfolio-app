@@ -1,0 +1,79 @@
+h1 {
+  font-family: "Raleway", "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    sans-serif;
+}
+
+.project-badge {
+  position: relative;
+}
+
+.project_cards {
+  border: 1px solid #000;
+  border-radius: 50px;
+}
+
+.project_cards .uk-card-header.uk-cover-container {
+  min-height: 130px;
+}
+
+div#project_screenshot {
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  border: 0px #fff solid;
+  border-radius: 50px 50px 0px 0px;
+}
+
+.pink {
+  background-color: #ec3b83;
+}
+
+.green {
+  background-color: #90ee90;
+}
+
+.gitBtn {
+  color: #000;
+  font-size: 1em;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 25px;
+}
+.gitBtn span i.fa.fa-github {
+  font-size: 1.2em;
+}
+
+.gitBtn:hover {
+  border: 1px solid #0f7ae5;
+}
+
+.siteBtn {
+  border: 1px solid #0f7ae5;
+  border-radius: 25px;
+}
+
+#projectsFilter .uk-padding-small {
+  padding: 5px;
+}
+
+p.sub-categories span {
+  display: inline-block;
+  padding: 0.3em 0.9em;
+  margin: 0 0.5em 0.5em 0;
+  white-space: nowrap;
+  background-color: #f1f8ff;
+  border-radius: 3px;
+  color: #0366d6;
+  font-size: 0.8em;
+}
+
+.uk-tab > .uk-active > a {
+  margin-right: -5px;
+}
+
+.uk-card-footer a {
+  margin-right: 1em;
+}
+
+.uk-card-default {
+  box-shadow: none;
+}
