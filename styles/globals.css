@@ -1,3 +1,19 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* ///////////////////////////// */
+/* Header */
+
+/* Override navbar a tag height */
+.uk-navbar-nav > li > a {
+  height: 50px !important;
+}
+/* White background fro navigation */
+.uk-navbar-container:not(.uk-navbar-transparent) {
+  background: #fff !important;
+}
+
+.uk-navbar-center {
+  justify-content: center;
+}

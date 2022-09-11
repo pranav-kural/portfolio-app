@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from "next/document";
+import Script from "next/script";
 
 export default function Document() {
   return (
@@ -13,6 +14,10 @@ export default function Document() {
         <link
           href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap"
           rel="stylesheet"
+        />
+        <Script
+          src="/assets/vendor/uikit/js/uikit.min.js"
+          strategy="lazyOnload"
         />
       </Head>
       <body>
