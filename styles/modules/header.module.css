@@ -1,1 +1,49 @@
+header {
+  z-index: 1;
+}
 
+#navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Override navbar a tag height */
+#navbar-desktop .uk-navbar-nav > li > a {
+  height: 50px !important;
+}
+/* White background fro navigation */
+#navbar-desktop,
+#navbar-mobile {
+  background: #ffffff;
+}
+
+#navbar-mobile {
+  display: none;
+}
+
+#navbar-desktop .uk-navbar-center {
+  justify-content: center;
+}
+
+.uk-navbar-half-transparent {
+  transition: top 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  z-index: 1100;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  box-shadow: inset 0px -1px 1px #f5f5f5;
+  background-color: rgba(255, 255, 255, 0.72) !important;
+}
+
+@media only screen and (max-width: 700px) {
+  #navbar-desktop {
+    display: none;
+  }
+  #navbar-mobile {
+    display: flex;
+    min-width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 !important;
+  }
+}

@@ -1,9 +1,9 @@
-div#aboutMeBackground {
-  background: url("images/background.jpg") no-repeat;
+#aboutMeBackground {
+  background: url("/assets/images/landing-cover.jpg") no-repeat;
   background-size: cover;
 }
 
-div#aboutMeBackground div {
+#aboutMeBackground div {
   min-height: 100%;
   min-width: 100%;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+82&0+51,1+100 */
@@ -31,7 +31,7 @@ div#aboutMeBackground div {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
 }
 
-div#aboutMeBackground div div {
+#aboutMeBackground div div {
   min-height: 80vh;
   min-width: 100%;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+82&0+51,1+100 */
@@ -59,11 +59,35 @@ div#aboutMeBackground div div {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
 
-div#container {
+#landingContainer {
   min-height: 80vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-div#aboutMeContainer {
+@media only screen and (max-width: 900px) {
+  #landingContainer {
+    min-height: 40vh;
+    max-height: 50vh;
+    min-width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #aboutMeBackground {
+    min-width: 100%;
+  }
+  #aboutMeContainer {
+    min-width: 80%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0;
+    margin-top: 2em;
+  }
+}
+
+#aboutMeContainer {
   border-radius: 30px;
   font-family: Montserrat, Helvetica, sans-serif;
 }
