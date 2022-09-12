@@ -16,8 +16,8 @@ export default function HeaderComponent() {
           <div className="uk-navbar-center">
             <ul className="uk-navbar-nav">
               <li>
-                <a data-scroll href="#aboutMe" data-uk-smooth-scroll>
-                  About Me
+                <a data-scroll href="#about" data-uk-smooth-scroll>
+                  About
                 </a>
               </li>
               <li>
@@ -26,23 +26,23 @@ export default function HeaderComponent() {
                 </a>
               </li>
               <li>
-                <a data-scroll href="#workexperience" data-uk-smooth-scroll>
-                  Work Experience
+                <a data-scroll href="#career" data-uk-smooth-scroll>
+                  Career
                 </a>
               </li>
               <li>
-                <a data-scroll href="#myWork" data-uk-smooth-scroll>
+                <a data-scroll href="#projects" data-uk-smooth-scroll>
                   Projects
                 </a>
               </li>
               <li>
-                <a data-scroll href="#mySkills" data-uk-smooth-scroll>
+                <a data-scroll href="#skills" data-uk-smooth-scroll>
                   Skills
                 </a>
               </li>
               <li>
-                <a data-scroll href="#contactMe" data-uk-smooth-scroll>
-                  Contact Me
+                <a data-scroll href="#contact" data-uk-smooth-scroll>
+                  Contact
                 </a>
               </li>
             </ul>
@@ -57,14 +57,14 @@ export default function HeaderComponent() {
           <div className="uk-navbar-left">
             <a
               className="uk-navbar-toggle uk-navbar-toggle-animate"
-              uk-navbar-toggle-icon="true"
+              uk-navbar-toggle-icon
               href="#"
             ></a>
             <div className="uk-navbar-dropdown">
               <ul className="uk-nav uk-navbar-dropdown-nav">
                 <li className="uk-active">
-                  <a data-scroll href="#aboutMe" data-uk-smooth-scroll>
-                    About Me
+                  <a data-scroll href="#about" data-uk-smooth-scroll>
+                    About
                   </a>
                 </li>
                 <li>
@@ -73,23 +73,23 @@ export default function HeaderComponent() {
                   </a>
                 </li>
                 <li>
-                  <a data-scroll href="#workexperience" data-uk-smooth-scroll>
-                    Work Experience
+                  <a data-scroll href="#career" data-uk-smooth-scroll>
+                    Career
                   </a>
                 </li>
                 <li>
-                  <a data-scroll href="#myWork" data-uk-smooth-scroll>
+                  <a data-scroll href="#projects" data-uk-smooth-scroll>
                     Projects
                   </a>
                 </li>
                 <li>
-                  <a data-scroll href="#mySkills" data-uk-smooth-scroll>
+                  <a data-scroll href="#skills" data-uk-smooth-scroll>
                     Skills
                   </a>
                 </li>
                 <li>
-                  <a data-scroll href="#contactMe" data-uk-smooth-scroll>
-                    Contact Me
+                  <a data-scroll href="#contact" data-uk-smooth-scroll>
+                    Contact
                   </a>
                 </li>
               </ul>

@@ -6,7 +6,9 @@ export default function AboutComponent() {
     <div id="landingContainer" uk-grid="true">
       <div id="aboutMeBackground" className="uk-width-2-5">
         <div>
-          <div></div>
+          <div>
+            <div></div>
+          </div>
         </div>
       </div>
       <div
