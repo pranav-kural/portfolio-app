@@ -13,3 +13,5 @@ html {
 /* ///////////////////////////// */
 /* About */
 @import url("./modules/about.module.css");
+
+@import url("./modules/education.module.css");

@@ -12,7 +12,7 @@ export default function Document() {
           crossOrigin="true"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&family=Raleway&display=swap"
           rel="stylesheet"
         />
       </Head>
