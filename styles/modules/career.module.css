@@ -1,14 +1,53 @@
-.uk-section-danger {
+#career {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Nunito, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#career h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif !important;
+}
+
+#career strong {
+  font-family: Raleway, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#career div:first-of-type {
+  border-radius: 0.15em;
+}
+
+#career .careerContent .contentBox div {
+  box-shadow: 0 0 0.25em 0.1em rgba(37, 37, 37, 0.5);
+  margin: 1em;
+  border-radius: 0.15em;
+}
+
+#career .careerContent .contentBox .subtitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#career .uk-section-danger {
   background-color: #ec2147;
 }
-.uk-flex {
+#career .uk-flex {
   flex-direction: column;
   align-items: center;
 }
-.uk-header-divider {
+#career .uk-header-divider {
   border-bottom: 2px solid #e5e5e5;
 }
-hr.divider-large {
+#career hr.divider-large {
   border-bottom: 2.5px solid #5a5a5a;
   width: 80px;
   margin: 10px 0 30px;
