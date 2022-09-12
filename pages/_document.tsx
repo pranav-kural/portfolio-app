@@ -15,14 +15,18 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap"
           rel="stylesheet"
         />
-        <Script
-          src="/assets/vendor/uikit/js/uikit.min.js"
-          strategy="lazyOnload"
-        />
       </Head>
       <body>
         <Main />
         <NextScript />
+        <Script
+          src="/assets/vendor/uikit/js/uikit.min.js"
+          strategy="lazyOnload"
+        />
+        <Script
+          src="/assets/vendor/uikit/js/uikit-icons.min.js"
+          strategy="lazyOnload"
+        />
       </body>
     </Html>
   );
