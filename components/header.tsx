@@ -8,11 +8,7 @@ export default function HeaderComponent() {
         id="navbar-container"
         uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky uk-navbar-half-transparent"
       >
-        <nav
-          id="navbar-desktop"
-          className="uk-navbar-container"
-          uk-navbar="true"
-        >
+        <nav id="navbar-desktop" className="uk-navbar-container" uk-navbar>
           <div className="uk-navbar-center">
             <ul className="uk-navbar-nav">
               <li>
@@ -52,7 +48,7 @@ export default function HeaderComponent() {
         <nav
           id="navbar-mobile"
           className="uk-navbar uk-navbar-container uk-margin"
-          uk-navbar="true"
+          uk-navbar
         >
           <div className="uk-navbar-left">
             <a

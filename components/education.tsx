@@ -1,7 +1,7 @@
 export default function EducationComponent() {
   return (
     <div
-      id="educationContainer"
+      id="education"
       className="uk-container uk-flex uk-flex-center uk-padding"
     >
       <h1 className="uk-text-center uk-margin-remove">My Education</h1>

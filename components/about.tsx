@@ -1,9 +1,6 @@
-import Image from "next/image";
-import landingCoverPic from "../public/assets/images/landing-cover.jpg";
-
 export default function AboutComponent() {
   return (
-    <div id="landingContainer" uk-grid="true">
+    <div id="about" uk-grid>
       <div id="aboutMeBackground" className="uk-width-2-5">
         <div>
           <div>

@@ -18,7 +18,7 @@ export default function CareerComponent() {
                   <strong>BMO Bank of Montreal</strong>
                   <span>January 2018 - August 2021</span>
                 </p>
-                <p className="uk-text-small">
+                <div className="uk-text-small">
                   I was rehired on the position of IT Operation Analyst after my
                   co-op work term ended at the Bank of Montreal’s primary Data
                   Centre in Barrie. I work primarily in the Applications Support
@@ -43,36 +43,20 @@ export default function CareerComponent() {
                       analysis
                     </li>
                     <li>
-                      Resolving the batch failures working with the Tier 2 and 3
-                      support teams for the ESP application, including JCL/COBOL
-                      fixes, implementing patches, and re-scheduling of the
-                      batch jobs
-                    </li>
-                    <li>
                       Assisting in gathering and coordination of proper
                       technical resources in an event of a production issue and
                       ensuring batch/report SLAs are being met
                     </li>
                     <li>
-                      Leveraging legacy system functionalities for application
-                      related issues and monitoring
-                    </li>
-                    <li>
-                      Real-time high capacity transaction processing monitoring
-                      (IBM MQ, CICS, DB2), Daily batch transaction processing
-                      stream (COBOL, z/OS, Autosys, FTP) and Web services (CA
-                      Introscope, WebSphere)
-                    </li>
-                    <li>
-                      Participating as a Mainframe Applications Analyst from
-                      Operations Control Room in enterprise-wide Disaster
-                      Recovery exercises and IPLs
+                      Participating as a Mainframe Applications Analyst in
+                      enterprise-wide Disaster Recovery exercises and IPLs
                     </li>
                   </ul>
                   <br />
-                </p>
+                </div>
               </div>
             </div>
+
             <div className="contentBox">
               <div className="uk-card uk-card-default uk-card-body">
                 <h4 className="uk-text-left uk-margin-remove">
@@ -82,7 +66,7 @@ export default function CareerComponent() {
                   <strong>BMO Bank of Montreal</strong>
                   <span>September 2017 - December 2017</span>
                 </p>
-                <p className="uk-text-small">
+                <div className="uk-text-small">
                   I completed a 4 month co-op work term at Bank of Montreal’s
                   Data Centre in Barrie as an IT Operations Analyst. My core
                   responsibilities included:
@@ -94,48 +78,30 @@ export default function CareerComponent() {
                       service level availability objectives are met or exceeded
                     </li>
                     <li>
-                      Direct, coordinate, and respond to automation prompts for
-                      operator intervention
-                    </li>
-                    <li>
                       Executes real time recovery actions to resolve critical
                       issues that impact established service levels
-                    </li>
-                    <li>
-                      Incident management using BPPM, BladeLogic and Remedy,
-                      following the in-place ITIL process
-                    </li>
-                    <li>
-                      Responsibly maintaining and updating technical
-                      documentations pertaining to certain server systems issues
-                      for faster recovery and incident resolution in case of
-                      future re-occurrence of the issue
                     </li>
                     <li>
                       Actively monitor the banks mainframe environments and
                       systems messages for any issues or messages which require
                       operator responses
                     </li>
-                    <li>
-                      Assist Tier 3 support Team with incident resolution when
-                      required
-                    </li>
                   </ul>
                   <br />
-                </p>
+                </div>
               </div>
             </div>
 
             <div className="contentBox">
               <div className="uk-card uk-card-default uk-card-body">
-                <p className="uk-margin-remove subtitle">
+                <div className="uk-margin-remove subtitle">
                   <h4 className="uk-text-left uk-margin-remove">
                     Web Developer
                   </h4>
                   <span>January 2017 - August 2017</span>
-                </p>
+                </div>
 
-                <p className="uk-margin-remove subtitle">
+                <div className="uk-margin-remove subtitle">
                   <h5 className="uk-text-left uk-margin-remove">
                     Web Developer Co-op
                   </h5>
@@ -143,9 +109,9 @@ export default function CareerComponent() {
                   <span>
                     <small>September 2016 - December 2016</small>
                   </span>
-                </p>
+                </div>
                 <strong>Georgian College</strong>
-                <p className="uk-text-small">
+                <div className="uk-text-small">
                   I was rehired as Web Developer by the Center for Innovation
                   and Applied Research, Georgian College, after my 4 month co-op
                   ended in December, 2016. I worked on this role while
@@ -178,9 +144,10 @@ export default function CareerComponent() {
                     </li>
                   </ul>
                   <br />
-                </p>
+                </div>
               </div>
             </div>
+
             <div className="contentBox">
               <div className="uk-card uk-card-default uk-card-body">
                 <h4 className="uk-text-left uk-margin-remove">Peer Tutor</h4>
@@ -190,14 +157,14 @@ export default function CareerComponent() {
                     September 2016 - April 2017
                   </span>
                 </p>
-                <p className="uk-text-small">
+                <div className="uk-text-small">
                   Provided academic assistance to students experiencing
                   difficulty in specific course content related to my field of
                   study (Computer Programming). This included providing tuitions
                   to students, working with them to understand where they are
                   having difficulties, motivating and encouraging them to learn
                   more.
-                </p>
+                </div>
               </div>
             </div>
           </div>

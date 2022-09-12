@@ -87,7 +87,7 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
 
-#landingContainer {
+#about {
   min-height: 80vh;
   display: flex;
   flex-direction: row;
@@ -95,7 +95,7 @@
 }
 
 @media only screen and (max-width: 900px) {
-  #landingContainer {
+  #about {
     min-height: 40vh;
     max-height: 50vh;
     min-width: 100%;

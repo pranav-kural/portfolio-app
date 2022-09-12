@@ -24,10 +24,14 @@ h6 {
   border-radius: 0.15em;
 }
 
-#career .careerContent .contentBox div {
+#career .careerContent .contentBox div:not(".uk-text-small") {
   box-shadow: 0 0 0.25em 0.1em rgba(37, 37, 37, 0.5);
   margin: 1em;
   border-radius: 0.15em;
+}
+
+#career .careerContent .contentBox {
+  margin-bottom: 2em;
 }
 
 #career .careerContent .contentBox .subtitle {

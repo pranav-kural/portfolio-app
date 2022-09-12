@@ -1,4 +1,4 @@
-#educationContainer {
+#education {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -6,7 +6,7 @@
   font-family: Nunito, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#educationContainer h1,
+#education h1,
 h2,
 h3,
 h4,
@@ -16,33 +16,33 @@ h6 {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif !important;
 }
 
-#educationContainer strong {
+#education strong {
   font-family: Raleway, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#educationContainer div:first-of-type {
+#education div:first-of-type {
   border-radius: 0.15em;
 }
 
-#educationContainer .educationContent .contentBox div {
+#education .educationContent .contentBox div {
   box-shadow: 0 0 0.25em 0.1em rgba(37, 37, 37, 0.5);
   margin: 1em;
   border-radius: 0.15em;
 }
 
-#educationContainer .rightFloat {
+#education .rightFloat {
   float: right;
 }
-#educationContainer h1 {
+#education h1 {
   text-transform: uppercase;
 }
-#educationContainer hr.divider {
+#education hr.divider {
   border-bottom: 2.5px solid #5a5a5a;
   width: 60px;
   margin: 10px 0 30px;
   border-radius: 3px;
 }
-#educationContainer h6.grade {
+#education h6.grade {
   margin: 0.4em 0;
   display: inline-block;
   background: rgba(0, 0, 0, 0.04);
