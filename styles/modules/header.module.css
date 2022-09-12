@@ -2,6 +2,10 @@ header {
   z-index: 1;
 }
 
+.titleText {
+  font-family: Raleway, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 #navbar-container {
   display: flex;
   justify-content: center;
@@ -16,6 +20,14 @@ header {
 #navbar-desktop,
 #navbar-mobile {
   background: #ffffff;
+}
+
+.uk-navbar-nav > li > a {
+  font-family: Montserrat, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.uk-nav > li > a {
+  font-family: Montserrat, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #navbar-mobile {

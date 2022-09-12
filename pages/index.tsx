@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import dynamic from "next/dynamic";
+import Head from "next/head";
 
 const Home: NextPage = () => {
   const propss = {
@@ -31,14 +32,20 @@ const Home: NextPage = () => {
   });
 
   return (
-    <div>
-      <Header />
-      <About />
-      <Education />
-      <Career />
-      <Contact />
-      <Footer />
-    </div>
+    <>
+      <Head>
+        <title>Pranav&rsquo;s Portfolio</title>
+        <meta property="og:title" content="Pranav's Portfolio" key="title" />
+      </Head>
+      <div>
+        <Header />
+        <About />
+        <Education />
+        <Career />
+        <Contact />
+        <Footer />
+      </div>
+    </>
   );
 };
 

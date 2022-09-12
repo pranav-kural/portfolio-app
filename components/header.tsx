@@ -2,7 +2,7 @@ export default function HeaderComponent() {
   return (
     <header>
       <h1 className="uk-heading-line uk-text-center uk-margin-top">
-        <span className="uk-text-uppercase">Pranav • Kural</span>
+        <span className="uk-text-uppercase titleText">Pranav • Kural</span>
       </h1>
       <div
         id="navbar-container"
