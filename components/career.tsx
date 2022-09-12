@@ -7,7 +7,7 @@ export default function CareerComponent() {
         <div className="uk-padding">
           <div
             className="careerContent uk-grid-match uk-child-width-1-1"
-            uk-grid
+            uk-grid="true"
           >
             <div className="contentBox">
               <div className="uk-card uk-card-default uk-card-body">

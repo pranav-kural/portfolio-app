@@ -1,6 +1,6 @@
 export default function AboutComponent() {
   return (
-    <div id="about" uk-grid>
+    <div id="about" uk-grid="true">
       <div id="aboutMeBackground" className="uk-width-2-5">
         <div>
           <div>

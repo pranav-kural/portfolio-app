@@ -6,13 +6,13 @@ html {
   scroll-behavior: smooth;
 }
 
-/* ///////////////////////////// */
-/* Header */
+/* third-party css libraries */
+@import url("../public/assets/vendor/font-awesome/css/font-awesome.min.css");
+@import url("../public/assets/vendor/uikit/css/uikit.min.css");
+/* local stylesheets */
 @import url("./modules/header.module.css");
-
-/* ///////////////////////////// */
-/* About */
 @import url("./modules/about.module.css");
-
 @import url("./modules/education.module.css");
 @import url("./modules/career.module.css");
+@import url("./modules/contact.module.css");
+@import url("./modules/footer.module.css");

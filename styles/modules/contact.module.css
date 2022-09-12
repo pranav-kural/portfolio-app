@@ -1,13 +1,13 @@
-input {
+#contact input {
   border-radius: 3px !important;
 }
 
-#contactMe h2 {
+#contact h2 {
   font-family: Raleway, sans-serif;
   color: #fff;
 }
 
-#contactMe p {
+#contact p {
   font-family: Monsterrat, sans-serif;
   color: #fff;
 }
@@ -17,7 +17,7 @@ a#modal_full_button {
   background: #fff;
 }
 
-#contactMe {
+#contact {
   flex-direction: column;
   min-height: 300px;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#febf04+0,fd7801+100 */
