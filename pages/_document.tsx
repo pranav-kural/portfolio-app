@@ -21,11 +21,11 @@ export default function Document() {
         <NextScript />
         <Script
           src="/assets/vendor/uikit/js/uikit.min.js"
-          strategy="lazyOnload"
+          strategy="beforeInteractive"
         />
         <Script
           src="/assets/vendor/uikit/js/uikit-icons.min.js"
-          strategy="lazyOnload"
+          strategy="beforeInteractive"
         />
       </body>
     </Html>
