@@ -14,5 +14,6 @@ html {
 @import url("./modules/about.module.css");
 @import url("./modules/education.module.css");
 @import url("./modules/career.module.css");
+@import url("./modules/skills.module.css");
 @import url("./modules/contact.module.css");
 @import url("./modules/footer.module.css");

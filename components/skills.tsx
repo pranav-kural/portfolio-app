@@ -1,31 +1,77 @@
 export default function SkillsComponent() {
   return (
-    <div>
-      <h2>Skills</h2>
-      <ul>
-        <li>
-          Provide Tier I and II level support for triaging and initiating
-          incident resolution for major systems and applications related issues
-          affecting the bank on a medium to large scale
-        </li>
-        <li>
-          Monitor performance and availability of systems, applications and
-          links to ensure full bank functionality across North America
-        </li>
-        <li>
-          Performing initial investigation for any production batch failures
-          through the SDSF, ISPF, InfoPac and server log analysis
-        </li>
-        <li>
-          Assisting in gathering and coordination of proper technical resources
-          in an event of a production issue and ensuring batch/report SLAs are
-          being met
-        </li>
-        <li>
-          Participating as a Mainframe Applications Analyst in enterprise-wide
-          Disaster Recovery exercises and IPLs
-        </li>
-      </ul>
+    <div
+      id="skills"
+      className="uk-container uk-flex uk-flex-column uk-flex-center uk-flex-middle uk-padding"
+    >
+      <h1 className="uk-text-center uk-margin-remove">My Skills</h1>
+      <hr className="divider-large" />
+      <div
+        id="skillsContainer"
+        className="uk-section uk-section-danger uk-preserve-color uk-container-small uk-flex uk-flex-column uk-flex-center uk-flex-middle"
+      >
+        <ul uk-accordion="multiple: true">
+          <li className="uk-open skillContent uk-card uk-card-default uk-card-body">
+            <a className="uk-accordion-title" href="#">
+              Highlighted Skills
+            </a>
+            <div className="uk-accordion-content">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </li>
+          <li className="skillContent uk-card uk-card-default uk-card-body">
+            <a className="uk-accordion-title" href="#">
+              Programming Languages
+            </a>
+            <div className="uk-accordion-content">
+              <p>
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                dolor reprehenderit.
+              </p>
+            </div>
+          </li>
+          <li className="skillContent uk-card uk-card-default uk-card-body">
+            <a className="uk-accordion-title" href="#">
+              Software Development
+            </a>
+            <div className="uk-accordion-content">
+              <p>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat proident.
+              </p>
+            </div>
+          </li>
+          <li className="skillContent uk-card uk-card-default uk-card-body">
+            <a className="uk-accordion-title" href="#">
+              Other Technical Skills
+            </a>
+            <div className="uk-accordion-content">
+              <p>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat proident.
+              </p>
+            </div>
+          </li>
+          <li className="skillContent uk-card uk-card-default uk-card-body">
+            <a className="uk-accordion-title" href="#">
+              Other Skills
+            </a>
+            <div className="uk-accordion-content">
+              <p>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat proident.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }
