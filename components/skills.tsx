@@ -1,3 +1,5 @@
+import TechnicalSkillsPieChart from "./skills/technical_skills_pie_chart";
+
 export default function SkillsComponent() {
   return (
     <div
@@ -24,14 +26,10 @@ export default function SkillsComponent() {
           </li>
           <li className="skillContent uk-card uk-card-default uk-card-body">
             <a className="uk-accordion-title" href="#">
-              Programming Languages
+              Languages & Frameworks
             </a>
             <div className="uk-accordion-content">
-              <p>
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                dolor reprehenderit.
-              </p>
+              <TechnicalSkillsPieChart />
             </div>
           </li>
           <li className="skillContent uk-card uk-card-default uk-card-body">
