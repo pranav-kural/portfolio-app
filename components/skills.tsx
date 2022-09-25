@@ -1,3 +1,4 @@
+import HighlightedSkills from "./skills/HighlightedSkills";
 import SoftwareDevelopmentSkills from "./skills/SoftwareDevelopmentSkills";
 import TechnicalSkills from "./skills/TechnicalSkills";
 
@@ -14,17 +15,7 @@ export default function SkillsComponent() {
         className="uk-section uk-section-danger uk-preserve-color uk-container-small uk-flex uk-flex-column uk-flex-center uk-flex-middle"
       >
         <ul uk-accordion="multiple: true">
-          <li className="uk-open skillContent uk-card uk-card-default uk-card-body">
-            <a className="uk-accordion-title" href="#">
-              Highlighted Skills
-            </a>
-            <div className="uk-accordion-content">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </div>
-          </li>
+          <HighlightedSkills />
           <TechnicalSkills />
           <SoftwareDevelopmentSkills />
           <li className="skillContent uk-card uk-card-default uk-card-body">

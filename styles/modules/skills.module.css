@@ -34,10 +34,11 @@ h6 {
   max-height: 50vh;
 }
 
-#skills-soft-dev-cycle .uk-card-title {
-  font-size: 1em;
+.skills-cards-container .uk-card-title {
+  font-size: 1.1em;
 }
 
-#skills-soft-dev-cycle p {
+.skills-cards-container .skills-card-item,
+p {
   font-size: 0.9em;
 }

@@ -6,7 +6,7 @@ export default function SoftwareDevelopmentSkills() {
       </a>
       <div className="uk-accordion-content">
         <p>Experience with all stages of Software Development Life Cycle</p>
-        <div id="skills-soft-dev-cycle">
+        <div className="skills-cards-container">
           <div
             className="uk-child-width-1-3@m uk-grid-small uk-grid-match"
             uk-grid="true"
