@@ -1,0 +1,44 @@
+div#skills ul {
+  width: 90%;
+}
+
+#skills h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif !important;
+}
+
+#skills strong {
+  font-family: Raleway, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#skills div:first-of-type {
+  border-radius: 0.15em;
+}
+
+#skills #skillsContainer {
+  width: 100%;
+  background-color: green;
+}
+
+#chart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100vw;
+  min-height: 40vh;
+  max-height: 50vh;
+}
+
+.skills-cards-container .uk-card-title {
+  font-size: 1.1em;
+}
+
+.skills-cards-container .skills-card-item,
+p {
+  font-size: 0.9em;
+}

@@ -23,11 +23,19 @@ const Home: NextPage = () => {
     ssr: false,
   });
 
+  const Skills = dynamic(() => import("../components/skills"), {
+    ssr: false,
+  });
+
   const Contact = dynamic(() => import("../components/contact"), {
     ssr: false,
   });
 
   const Footer = dynamic(() => import("../components/footer"), {
+    ssr: false,
+  });
+
+  const TotopButton = dynamic(() => import("../components/totop"), {
     ssr: false,
   });
 
@@ -42,8 +50,10 @@ const Home: NextPage = () => {
         <About />
         <Education />
         <Career />
+        <Skills />
         <Contact />
         <Footer />
+        <TotopButton />
       </div>
     </>
   );
