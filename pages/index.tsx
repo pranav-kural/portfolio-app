@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 import dynamic from "next/dynamic";
 import Head from "next/head";
-import TotopButton from "../components/totop";
 
 const Home: NextPage = () => {
   const propss = {
@@ -33,6 +32,10 @@ const Home: NextPage = () => {
   });
 
   const Footer = dynamic(() => import("../components/footer"), {
+    ssr: false,
+  });
+
+  const TotopButton = dynamic(() => import("../components/totop"), {
     ssr: false,
   });
 
