@@ -1,4 +1,5 @@
-import TechnicalSkillsPieChart from "./skills/technical_skills_pie_chart";
+import SoftwareDevelopmentSkills from "./skills/SoftwareDevelopmentSkills";
+import TechnicalSkills from "./skills/TechnicalSkills";
 
 export default function SkillsComponent() {
   return (
@@ -24,48 +25,21 @@ export default function SkillsComponent() {
               </p>
             </div>
           </li>
-          <li className="skillContent uk-card uk-card-default uk-card-body">
-            <a className="uk-accordion-title" href="#">
-              Languages & Frameworks
-            </a>
-            <div className="uk-accordion-content">
-              <TechnicalSkillsPieChart />
-            </div>
-          </li>
-          <li className="skillContent uk-card uk-card-default uk-card-body">
-            <a className="uk-accordion-title" href="#">
-              Software Development
-            </a>
-            <div className="uk-accordion-content">
-              <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat proident.
-              </p>
-            </div>
-          </li>
-          <li className="skillContent uk-card uk-card-default uk-card-body">
-            <a className="uk-accordion-title" href="#">
-              Other Technical Skills
-            </a>
-            <div className="uk-accordion-content">
-              <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat proident.
-              </p>
-            </div>
-          </li>
+          <TechnicalSkills />
+          <SoftwareDevelopmentSkills />
           <li className="skillContent uk-card uk-card-default uk-card-body">
             <a className="uk-accordion-title" href="#">
               Other Skills
             </a>
             <div className="uk-accordion-content">
-              <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat proident.
-              </p>
+              <ul className="uk-list uk-list-divider">
+                <li>Critical Thinking & Analytical Mindset 👨🏽‍💻</li>
+                <li>Excellent Collaboration and Team Working Skills 👬</li>
+                <li>Adept at Time and Workload Management ⏳</li>
+                <li>Harmonious, Respectful & Approachable Attitude 🙏</li>
+                <li>Adaptability and Fast Learner 🤓</li>
+                <li>Kickboxing, Yoga, Cooking 🍱</li>
+              </ul>
             </div>
           </li>
         </ul>
