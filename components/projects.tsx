@@ -14,9 +14,14 @@ export default function Projects() {
           <ProjectCards projects={projectsData} />
         </div>
         <div className="github-projects-btn">
-          <div className="uk-button uk-button-primary uk-button-large">
+          <a
+            className="uk-button uk-button-primary uk-button-large"
+            href="https://github.com/pranav-kural"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             View more on GitHub
-          </div>
+          </a>
         </div>
       </div>
     </div>
