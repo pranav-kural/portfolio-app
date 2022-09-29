@@ -12,6 +12,14 @@
   color: #fff;
 }
 
+#contact button {
+  color: #ffffff;
+}
+
+#contactMessage {
+  max-width: 90%;
+}
+
 a#modal_full_button {
   color: #000;
   background: #fff;

@@ -31,13 +31,13 @@ export default function HeaderComponent() {
                 </a>
               </li>
               <li>
-                <a data-scroll href="#projects" data-uk-smooth-scroll>
-                  Projects
+                <a data-scroll href="#skills" data-uk-smooth-scroll>
+                  Skills
                 </a>
               </li>
               <li>
-                <a data-scroll href="#skills" data-uk-smooth-scroll>
-                  Skills
+                <a data-scroll href="#projects" data-uk-smooth-scroll>
+                  Projects
                 </a>
               </li>
               <li>
@@ -78,13 +78,13 @@ export default function HeaderComponent() {
                   </a>
                 </li>
                 <li>
-                  <a data-scroll href="#projects" data-uk-smooth-scroll>
-                    Projects
+                  <a data-scroll href="#skills" data-uk-smooth-scroll>
+                    Skills
                   </a>
                 </li>
                 <li>
-                  <a data-scroll href="#skills" data-uk-smooth-scroll>
-                    Skills
+                  <a data-scroll href="#projects" data-uk-smooth-scroll>
+                    Projects
                   </a>
                 </li>
                 <li>

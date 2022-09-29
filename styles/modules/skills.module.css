@@ -12,7 +12,8 @@ h6 {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif !important;
 }
 
-#skills strong {
+#skills strong,
+.uk-accordion-title {
   font-family: Raleway, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 

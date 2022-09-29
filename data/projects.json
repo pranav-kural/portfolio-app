@@ -1,0 +1,56 @@
+[
+  {
+    "name": "React E-Commerce Store",
+    "repo_url": "https://github.com/pranav-kural/crown-clothing",
+    "site_url": "https://r-crown-clothing.netlify.app/",
+    "languages": ["HTML", "JavaScript", "CSS", "SASS", "TypeScript", "ES6"],
+    "category": ["Personal"],
+    "sub_categories": [
+      "React",
+      "Redux",
+      "Material UI",
+      "Hooks",
+      "Firebase",
+      "Stripe",
+      "Redux Saga",
+      "MUI"
+    ],
+    "screenshot": "crown-clothing.png",
+    "description": "Production quality e-commerce app with React, Redux-Saga, Hooks, Stripe, MUI, Firebase, SASS, styled-components, Serverless functions & complex state management"
+  },
+  {
+    "name": "Learn SDLC",
+    "repo_url": "https://github.com/pranav-kural/learn-sdlc",
+    "site_url": "http://gc200333253.computerstudi.es/teamNoClue/",
+    "languages": ["HTML", "JavaScript", "CSS"],
+    "category": ["School", "Personal"],
+    "sub_categories": [
+      "Angular",
+      "Semantic-UI",
+      "MaterializeCSS",
+      "Angular Material"
+    ],
+    "screenshot": "learn-sdlc.png",
+    "description": "An interactive online learning platform to learn Systems Development Life Cycle. Implements a strategic learning progression, with knowledge presentation followed by a quick quick for active recall"
+  },
+  {
+    "name": "Fillactive Fitspirit",
+    "repo_url": "https://github.com/Fillactive-CodeToGive-MTL/Fillactive-Community-App",
+    "site_url": "https://fillactive-community-app.herokuapp.com/",
+    "languages": ["JavaScript", "HTML", "CSS", "EJS", "ES6"],
+    "category": ["Personal"],
+    "sub_categories": ["ExpressJS", "NodeJS", "EJS"],
+    "screenshot": "fillactive.png",
+    "description": "Project made as part of a team during a hackathon organized by Morgan Stanley, for a non-profit - Fillactive, to reache out and encourage teenage girls to change their mindset about physical activity"
+  },
+  {
+    "name": "ExpiRem (REST) API",
+    "repo_url": "https://github.com/pranav-kural/expiremapi",
+    "site_url": "",
+    "languages": ["JavaScript", "ES6"],
+    "category": ["School"],
+    "sub_categories": ["NodeJS", "Fastify", "ajv"],
+    "screenshot": "expirem.png",
+    "description": "Demonstration of a simple yet powerful REST API to create intuitive and performant applications which users can use to manage expiration of products or items"
+  }
+]

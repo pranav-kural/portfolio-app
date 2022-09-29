@@ -7,18 +7,23 @@ export default function ContactComponent() {
 
   return (
     <div id="contact" className="uk-flex uk-flex-center uk-flex-middle">
-      <h2>I would love to hear from you</h2>
-      <p>
-        Please feel free to connect with me for absolutely anything. Would love
-        to hear from you.
-      </p>
-      <button
-        id="modal_full_button"
-        className="uk-button uk-button-default"
-        uk-toggle="target: #modal-full"
+      <div
+        id="contactMessage"
+        className="uk-flex uk-flex-center uk-flex-middle uk-flex-column"
       >
-        Get in Touch
-      </button>
+        <h2>I would love to hear from you</h2>
+        <p>
+          Please feel free to connect with me for absolutely anything. Would
+          love to hear from you.
+        </p>
+        <button
+          id="modal_full_button"
+          className="uk-button uk-button-default"
+          uk-toggle="target: #modal-full"
+        >
+          Get in Touch
+        </button>
+      </div>
 
       <div id="modal-full" className="uk-modal-full" uk-modal="true">
         <div className="uk-modal-dialog">

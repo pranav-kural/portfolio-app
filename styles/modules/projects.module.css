@@ -1,24 +1,68 @@
-h1 {
-  font-family: "Raleway", "Segoe UI", Roboto, "Helvetica Neue", Arial,
-    sans-serif;
+#projects h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif !important;
+}
+
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.project-cards-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 2vw;
+  grid-row-gap: 2vh;
+  max-width: 65vw;
+}
+
+@media only screen and (min-width: 1200px) {
+  .project-cards-container {
+    grid-column-gap: 2vw;
+    grid-row-gap: 5vh;
+    max-width: 55vw;
+  }
+}
+
+@media only screen and (max-width: 1190px) {
+  .project-cards-container {
+    max-width: 80vw;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .project-cards-container {
+    max-width: 90%;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  .project-cards-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .project-badge {
   position: relative;
 }
 
-.project_cards {
-  border: 1px solid #000;
+.project-cards {
+  border: 0.05em solid rgb(211, 211, 211);
   border-radius: 50px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.project_cards .uk-card-header.uk-cover-container {
-  min-height: 130px;
-}
-
-div#project_screenshot {
-  background-size: cover !important;
-  background-repeat: no-repeat !important;
+.project-screenshot {
   border: 0px #fff solid;
   border-radius: 50px 50px 0px 0px;
 }
@@ -47,8 +91,13 @@ div#project_screenshot {
 }
 
 .siteBtn {
+  font-size: 1.2em;
   border: 1px solid #0f7ae5;
   border-radius: 25px;
+}
+
+.siteBtn span i.fa.fa-globe {
+  margin-right: 5px;
 }
 
 #projectsFilter .uk-padding-small {
@@ -66,14 +115,26 @@ p.sub-categories span {
   font-size: 0.8em;
 }
 
-.uk-tab > .uk-active > a {
+#projects .uk-tab > .uk-active > a {
   margin-right: -5px;
 }
 
-.uk-card-footer a {
+#projects .uk-card-body {
+  height: 100%;
+}
+
+#projects .uk-card-title {
+  font-family: Raleway, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#projects .uk-card-footer a {
   margin-right: 1em;
 }
 
-.uk-card-default {
-  box-shadow: none;
+.github-projects-btn {
+  margin-top: 8vh;
+}
+
+.github-projects-btn div {
+  border-radius: 0.5em;
 }

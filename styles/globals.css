@@ -15,8 +15,16 @@ html {
 @import url("./modules/education.module.css");
 @import url("./modules/career.module.css");
 @import url("./modules/skills.module.css");
+@import url("./modules/projects.module.css");
 @import url("./modules/contact.module.css");
 @import url("./modules/footer.module.css");
+
+hr.divider-large {
+  border-bottom: 2.5px solid #5a5a5a;
+  width: 80px;
+  margin: 10px 0 30px;
+  border-radius: 3px;
+}
 
 #totop-button {
   display: flex;
