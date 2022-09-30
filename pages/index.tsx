@@ -3,10 +3,6 @@ import dynamic from "next/dynamic";
 import Head from "next/head";
 
 const Home: NextPage = () => {
-  const propss = {
-    suppressHydrationWarning: true,
-  };
-
   const Header = dynamic(() => import("../components/header"), {
     ssr: false,
   });

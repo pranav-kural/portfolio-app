@@ -27,7 +27,7 @@ h6 {
   .project-cards-container {
     grid-column-gap: 2vw;
     grid-row-gap: 5vh;
-    max-width: 55vw;
+    max-width: 95vw;
   }
 }
 
