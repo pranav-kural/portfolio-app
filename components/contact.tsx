@@ -44,16 +44,17 @@ export default function ContactComponent() {
           Please feel free to connect with me for absolutely anything. Would
           love to hear from you.
         </p>
-        <button
-          id="modal_full_button"
-          className="uk-button uk-button-default"
-          uk-toggle="target: #modal-full"
-        >
-          Get in Touch
-        </button>
+        <a href="mailto:pranavkural@gmail.com">
+          <button
+            id="modal_full_button"
+            className="uk-button uk-button-default"
+          >
+            Get in Touch
+          </button>
+        </a>
       </div>
 
-      <div id="modal-full" className="uk-modal-full" uk-modal="true">
+      {/* <div id="modal-full" className="uk-modal-full" uk-modal="true">
         <div className="uk-modal-dialog">
           <button
             className="uk-modal-close-full uk-close-large"
@@ -146,7 +147,7 @@ export default function ContactComponent() {
 
           <div className="uk-modal-footer"></div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
