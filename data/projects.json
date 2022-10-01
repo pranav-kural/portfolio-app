@@ -21,7 +21,7 @@
   {
     "name": "Learn SDLC",
     "repo_url": "https://github.com/pranav-kural/learn-sdlc",
-    "site_url": "http://gc200333253.computerstudi.es/teamNoClue/",
+    "site_url": "https://learn-sdlc.netlify.app/",
     "languages": ["HTML", "JavaScript", "CSS"],
     "category": ["School", "Personal"],
     "sub_categories": [
